@@ -1,0 +1,809 @@
+/* Général*/
+
+body {
+  margin: auto 0;
+}
+
+/*Titres, tailles et positions*/
+h1, h2, h4, h5 {
+  text-transform: uppercase;
+}
+
+h2, h4 {
+  font-size: 40px;
+}
+
+h2, h4 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.texteGris {
+  color: #65696e;
+}
+
+/*Polices*/
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('fonts/Roboto-Light.ttf');
+}
+
+h1, h2, h4 {
+  font-family: 'RobotoBold';
+}
+
+h3, h5, .bold {
+  font-family: 'RobotoMedium';
+}
+
+.regular {
+  font-family: 'RobotoRegular';
+}
+
+.medium {
+  font-family: 'RobotoMedium';
+}
+
+.light {
+  font-family: 'RobotoLight';
+}
+
+/*Border radius sur les boutons*/
+.divBoutonInfo, button {
+  border-radius: 4px;
+}
+
+/*Positionnement de la div de séparation*/
+.separation {
+  position: relative;
+  padding-bottom: 20px;
+  height: 10px;
+  width: 100%;
+}
+
+.ligneGrise {
+  position: absolute;
+  height: 2px;
+  background-color: #dcdcdc;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 130px;
+  text-align: center;
+  top:13px;
+}
+
+/*Style et Positionnement des icons circle*/
+.iconeSeparation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -12px;
+  text-align: center;
+}
+
+.cercleBlanc {
+  color: #3491b2;
+  border-radius: 50%;
+  border: 5px solid white;
+  top:4px;
+}
+
+/*Partie1*/
+
+/*Header*/
+
+/*Alignement du logo et de la navbar, espacement entre les deux*/
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+/*navbar*/
+
+/*Positionnement du logo*/
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding-left: 15%;
+}
+
+.divNavbar {
+  margin-right: 14%;
+}
+
+/*Suppression des puces de listes, alignement horizontal*/
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  width: 90px;
+}
+
+/*Style des liens de navigation, Espacement entre les liens de navigation*/
+
+.navbar a {
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*Style du lien sélectionné*/
+.navbar a:hover {
+  padding-top: 35px;
+  font-weight: bold;
+  border-top: 2px solid #3491b2;
+}
+
+/*En-tête image et titre*/
+
+/*Image de fond, positionnement*/
+ #sectionSlider {
+  background-image: url("img/sliderun.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  width: 100%;
+  height: 750px;
+  position: relative;
+  background-size: 100% auto;
+}
+
+/*Texte*/
+.presentation {
+  margin-left: 15%;
+  margin-right: 50%;
+  margin-top: -10.5%;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 2vw;
+}
+
+.sousTitre {
+  margin-top: -2%;
+}
+
+.texteBleu {
+  color: #3491b2;
+}
+
+.texteBlanc {
+  color: white;
+}
+
+/*Bouton*/
+.divBoutonInfo, .boutonInfo {
+  background: #3491b2;
+}
+
+.divBoutonInfo {
+  margin-top: 2%;
+  width: 140px;
+  height: 45px;
+  text-align: center;
+  border-bottom: 5px solid #3491b2;
+}
+
+.boutonInfo {
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+ .divBoutonInfo:hover, button:hover {
+  border-bottom: 5px solid #287e9c;
+  transition-duration: 1s;
+}
+
+/*blod flèches slider*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15%;
+}
+
+/*Flèches slider*/
+.fa-angle-left, .fa-angle-right {
+  color: white;
+  background-color: black;
+  opacity: 0.30;
+}
+
+.fa-angle-left {
+  padding: 10px 10px 10px 0px;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.fa-angle-right {
+  padding: 10px 0px 10px 10px;
+  border-radius: 2rem 0 0 2rem;
+}
+
+/*Définition de la timeline en bas de la photo*/
+.timeline {
+  position:absolute;
+  display: flex;
+  width: 100%;
+  height: 5px;
+  margin-top:34.05%;
+}
+
+.timelineBleu {
+  width: 15%;
+  background: #3491b2;
+}
+
+.timelineOpacity {
+  width: 85%;
+  background-color: black;
+  opacity: 0.2;
+}
+
+/*************************************************************************/
+
+/*Partie2*/
+
+#sectionServices {
+  margin-top: 60px;
+  height: auto;
+}
+
+/*Position titre*/
+h2, .sousTitreServices {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+
+/*Position titres de texte*/
+h3 {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*Conteneur flexbox*/
+#conteneurServices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/*Taille de la partie droite*/
+#servicesInfo {
+  width: 600px;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+/*Position des icons face au texte*/
+.fa-chart-line, .fa-cubes, .fa-chart-pie {
+  float: left;
+  border-radius: 50%;
+  padding: 20px;
+  color: #3491b2;
+  border: 1px solid #dbdbdb;
+  margin-right: 28px;
+}
+
+.iconeLaterale {
+  color: #3491b2;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -40px;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+/*************************************************************************/
+
+/*partie3*/
+#sectionProjets {
+  background-color: #eeecec;
+}
+
+/*Titre et sous-titre*/
+h4, .sousTitreProjets {
+  text-align: center;
+}
+
+.sousTitreProjets {
+  padding-bottom: 30px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+/*Conteneur des boutons et leur placement, style*/
+#conteneurBoutons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-un {
+  border-radius: 7px 0px 0px 7px;
+}
+
+.item-deux {
+  border-radius: 0px 7px 7px 0px;
+}
+
+.item-un :hover{
+  border-radius: 7px 0px 0px 7px;
+}
+.item-deux :hover {
+  border-radius: 0px 7px 7px 0px;
+}
+
+.flexBouton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.figureBouton {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  background-color: #dcdcdc;
+}
+
+.boutonProjets {
+  padding:20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.captionBouton {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  height: 4px;
+  background-color: #287e9c;
+  opacity: 0;
+  transition-duration: 2s;
+}
+
+/*Opacité lorsque l'on passe sa souris*/
+.figureBouton:hover .captionBouton {
+  opacity: 1;
+}
+
+ .boutonProjets:hover  {
+  background-color: #3491b2;
+  color: white;
+  transition-duration: 2s;
+}
+
+.fa-caret-down {
+  position: absolute;
+  color: #287e9c;
+  top: -10px;
+  left: 42%;
+}
+
+/*Conteneur photos*/
+/*Dimensions photos*/
+.pic {
+  margin: auto;
+  height: 200px;
+  width: 320px;
+}
+
+.flexPhoto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*Définition du conteneur*/
+#conteneurPortfolio {
+  margin-top: 57px;
+  padding-bottom: 130px;
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*Dimensions et position de la figure*/
+.figurePortfolio {
+  margin: auto;
+  height: 200px;
+  width: 320px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+/*Dimensions, position et effets de la figcaption*/
+.captionPortfolio {
+  position: absolute;
+  bottom: 30px;
+  color: white;
+  width: 100%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition-duration: 2s;
+}
+
+.captionPortfolio:hover {
+  opacity: 1;
+}
+
+/*Opacité lorsque l'on passe sa souris*/
+.figurePortfolio:hover .captionPortfolio {
+  opacity: 1;
+}
+
+/*Taille, position et superposition du titre*/
+.client {
+  font-size: 1.4em;
+  margin-top: 5px;
+  margin-left: 15px;
+  z-index: 2;
+}
+
+/*Taille, position et superposition du texte*/
+.descriptionClient {
+  font-size: 1.2em;
+  margin-top: 0px;
+  margin-left: 15px;
+  z-index: 2;
+}
+
+/*Affichage lors du hover*/
+.captionPortfolio::after {
+  position: absolute;
+  top: -28px;
+  height: 50px;
+  width: 50px;
+  background-color: #3491b2;
+  content: '';
+  border-radius: 50%;
+  right: 11px;
+}
+
+.captionPortfolio::before {
+  position: absolute;
+  top: -33px;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  content: '';
+  color: #3491b2;
+  border-radius: 50%;
+  right: 6px;
+}
+
+/*position et superposition de l'icon*/
+.fa-eye {
+  position: absolute;
+  top: -10px;
+  right: 24px;
+  z-index: 1;
+}
+
+/*************************************************************************/
+
+/*Partie4 Footer*/
+
+/*Hauteur de la section*/
+#sectionContact {
+  margin: 0;
+  height: 630px;
+}
+
+/*Placement de google map*/
+#containerMap {
+  width: 100%;
+}
+
+.googleMap {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+/*Couleur et opacité sur la map*/
+.mapOpacity {
+  width: 100%;
+  height: 630px;
+  background-color: #287e9c;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 2;
+  /* pointer-events: none; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+iframe {
+  width: 100%;
+}
+
+/*Formulaire de contact*/
+.formulaire {
+  position: absolute;
+  margin-left: 62%;
+  width: 360px;
+  height: 520px;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 3;
+  margin-top: 55px;
+}
+
+/*Intérieur du formulaire*/
+form {
+margin : 15px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.adresse {
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+h5, .adresse, .sendmessage {
+  margin-left: 20px;
+}
+
+.ligneAdresse {
+  margin-top: -15px;
+}
+
+textarea {
+  height: 173px;
+}
+
+input, textarea {
+  margin-top: 10px;
+  font-family: 'RobotoRegular';
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #EBE9ED;
+  width: 320px;
+}
+
+button {
+  border: none;
+  font-size: 1em;
+  color: white;
+  padding: 10px 10px 6px 10px;
+  margin-top: 10px;
+  background: #3491b2;
+  border-bottom: 5px solid #3491b2;
+}
+
+
+/*************************************************************************/
+
+/*Media Queries*/
+
+@media all and (max-width: 991px) {
+  /*Header*/
+  /*Navbar*/
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .divNavbar {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+  }
+
+  /*Style du lien sélectionné*/
+  .navbar a:hover {
+    padding-top: 5px;
+    font-weight: bold;
+    border-top: 2px solid #3491b2;
+  }
+
+  /*Positionnement du logo*/
+  .logo {
+    justify-content: center;
+    padding-left: 60px;
+  }
+
+  /*Définition de la timeline en bas de la photo*/
+  .timeline {
+    position:absolute;
+    display: flex;
+    width: 100%;
+    height: 5px;
+    margin-top:33.9%;
+  }
+
+  /*Flèches slider*/
+  .navigation, .angleIcon {
+    display: none;
+  }
+
+  /*Position de la section slider*/
+  #sectionSlider {
+    height: 400px;
+    margin: auto;
+  }
+
+  /*Position du bloc presentation*/
+  .presentation {
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+  }
+
+  /*Taille du titre h1*/
+  h1 {
+    font-size: 2em;
+  }
+
+  /*Position du bouton de présentation*/
+  .divBoutonInfo {
+    margin: auto;
+    margin-top: 8%;
+  }
+
+  /*Services*/
+  #sectionServices {
+    height: auto;
+  }
+
+  /*Position du texte*/
+  h2, .sousTitreServices, .sousTitreProjets {
+    text-align: center;
+    padding: 0;
+  }
+
+  /*Hauteur de la section Contact*/
+  #sectionContact {
+    height: 630px;
+  }
+
+  /*Position du h5*/
+  h5 {
+    padding-top: 20px;
+  }
+
+  /*Position du container du footer*/
+  #containerMap {
+    position: absolute;
+    margin: auto;
+  }
+
+  /*position du formulaire*/
+  .formulaire {
+    position: relative;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+}
+
+
+@media all and (max-width: 768px) {
+
+  /*Haut de page*/
+  #sectionSlider {
+    background-image: none;
+  }
+
+  /*Couleur du texte qui change pour la lisibilité*/
+  .texteBlanc {
+    color:black;
+    margin-top:60px;
+    margin-bottom: 60px;
+  }
+
+  /*Définition de la timeline en bas de la photo*/
+  .timeline {
+    display: none;
+  }
+
+  /*Footer*/
+  .formulaire {
+    width: 350px;
+  }
+
+  /*Largeur du formulaire adapté*/
+  input, textarea {
+    width: 300px;
+  }
+
+  /*Centrage du titre Contact et informations*/
+  h5, .adresse {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media all and (max-width: 480px) {
+
+  /*Position du header*/
+  .menu {
+    justify-content: center;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  /*Espace au dessus de la navbar*/
+  .divNavbar {
+    padding-top: 15px;
+  }
+
+  .navbar ul {
+    margin: 0;
+  }
+
+  /*Style du lien sélectionné*/
+  .navbar a:hover {
+    border-top: none;
+    font-weight: bold;
+  }
+
+  /*Hauteur de la section Slider*/
+  #sectionSlider {
+    height: 500px;
+  }
+
+  /*Largeur du formulaire*/
+  .formulaire {
+    width: 250px;
+  }
+
+  /*Largeur des entrées du formulaire*/
+  input, textarea {
+    width: 200px;
+  }
+
+}

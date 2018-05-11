@@ -1,0 +1,299 @@
+<!--
+Indentation
+W3C
+Media Queries
+Noms de class et ID
+border radisu btn
+-->
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <title>WebAgency</title>
+    <link rel="stylesheet" type="text/css" href="webagency.css" />
+    <!--FontAwesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+ </head>
+
+
+ <body>
+
+  <!--Header avec logo et navbar-->
+    <header>
+
+      <div class="menu">
+
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo de WebAgency" />
+        </div>
+
+        <div class="divNavbar">
+          <nav class="navbar">
+            <ul>
+                <li class="regular"><a href="#header">Accueil</a></li>
+                <li class="regular"><a href="#sectionServices">Services</a></li>
+                <li class="regular"><a href="#sectionProjets">Portfolio</a></li>
+                <li class="regular"><a href="#sectionContact">Contact</a></li>
+            </ul>
+          </nav>
+       </div>
+
+      </div>
+
+    </header>
+
+    <!--Partie1-->
+    <!--En-tête image et titre-->
+    <section id="sectionSlider">
+
+      <div class="timeline">
+        <div class="timelineBleu"></div>
+        <div class="timelineOpacity"></div>
+      </div>
+
+      <div class="navigation">
+        <div><a class="angleIcon"><i class="fas fa-angle-left fa-3x"></i></a></div>
+        <div><a class="angleIcon"><i class="fas fa-angle-right fa-3x"></i></a></div>
+      </div>
+
+      <div class="presentation">
+        <h1><span class="texteBleu">Webagency</span> <span class="texteBlanc">: l'agence de tous vos projets !</span></h1>
+        <p class="texteBlanc sousTitre regular">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+        <p class="divBoutonInfo"><a href="#services" class="boutonInfo regular">Plus d'infos</a></p>
+      </div>
+
+    </section>
+<!--Fin Partie1-->
+
+<!--Partie2-->
+    <section id="sectionServices">
+
+      <h2>Nos services</h2>
+
+      <div class="separation">
+        <div class="ligneGrise"></div>
+        <p class="iconeSeparation"><i class="fas fa-circle fa-xs cercleBlanc"></i></p>
+      </div>
+
+      <p class="sousTitreServices regular texteGris">WebAgency conçoit votre site web sur mesure avec les dernières technologies de pointe et vous apporte son expertise en matière de référencement, assurant ainsi votre communication digitale.</p>
+
+      <div id="conteneurServices">
+
+        <div><img src="img/computer.png" alt="Ordinateur portable"/></div>
+
+        <div id="servicesInfo">
+
+          <div>
+            <p><i class="fas fa-chart-line fa-2x"></i><i class="fas fa-circle iconeLaterale fa-xs"></i></p>
+            <div class="servicestext">
+              <h3>UX design</h3>
+              <span class="light texteGris">Nous concevons des sites ergonomiques, adaptés à tous les écrans, et pensés pour la bonne navigation des utilisateurs.</span>
+            </div>
+          </div>
+
+          <div>
+            <p><i class="fas fa-cubes fa-2x"></i><i class="fas fa-circle iconeLaterale fa-xs"></i></p>
+            <div>
+              <h3>UI design</h3>
+              <span class="light texteGris">Parce que votre site web est le reflet de votre marque, nos graphistes personnalisent chaque pixel à votre image.</span>
+            </div>
+          </div>
+
+          <div>
+            <p><i class="fas fa-chart-pie fa-2x"></i><i class="fas fa-circle iconeLaterale fa-xs"></i></p>
+            <div>
+              <h3>SEO</h3>
+              <span class="light texteGris">Un référencement optimal dans les moteurs de recherche est la clé de votre succès. Nous nous assurerons toujours de son efficacité.</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+      <!--Fin partie2-->
+
+      <!--Partie3-->
+    <section id="sectionProjets">
+
+      <h4>Nos projets</h4>
+
+      <div class="separation">
+        <div class="ligneGrise"></div>
+        <p class="iconeSeparation"><i class="fas fa-circle cercleBlanc fa-xs"></i></p>
+      </div>
+
+      <p class="sousTitreProjets regular texteGris">De l'auto-entrepreneur à la multi-nationale en passant par le e-commerce, ils nous ont fait confiance pour la réalisation de leur site web. Voici nos dernières créations.</p>
+
+      <div id="conteneurBoutons">
+
+        <div class="flexBouton">
+          <figure class="figureBouton item-un">
+            <a class="boutonProjets regular texteGris" href="#">All works</a>
+            <figcaption class="captionBouton">
+              <i class="fas fa-caret-down fa-2x"></i>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexBouton">
+          <figure class="figureBouton">
+            <a class="boutonProjets regular" href="#">Creative</a>
+            <figcaption class="captionBouton">
+              <i class="fas fa-caret-down fa-2x"></i>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexBouton">
+          <figure class="figureBouton">
+            <a class="boutonProjets regular" href="#">Corporate</a>
+            <figcaption class="captionBouton">
+              <i class="fas fa-caret-down fa-2x"></i>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexBouton">
+          <figure class="figureBouton item-deux">
+            <a class="boutonProjets regular" href="#">Portfolio</a>
+            <figcaption class="captionBouton">
+              <i class="fas fa-caret-down fa-2x"></i>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+      <div id="conteneurPortfolio">
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/pru.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">Eye of the Tiger</h3><p class="descriptionClient">Le meilleur opticien de Nice</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/prd.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">Le Lapin Rose</h3><p class="descriptionClient">Costumier depuis 1995</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/prt.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">Pompadour</h3><p class="descriptionClient">Le coiffeur préféré de Vin Diesel</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/prq.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">Jean Dupont</h3><p class="descriptionClient">Consultant indépendant</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/prc.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">Salando</h3><p class="descriptionClient">1er site e-commerce de France</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/prsix.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">firstminute.com</h3><p class="descriptionClient">Agence de voyage pour gens pressés</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/prsept.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">Space Z</h3><p class="descriptionClient">Lanceur de Renault dans l'espace</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="flexPhoto">
+          <figure class="figurePortfolio">
+            <img class="pic" src="img/prh.jpg" alt="">
+            <figcaption class="captionPortfolio">
+              <i class="fas fa-eye fa-lg"></i>
+              <h3 class="client">Bottom Office</h3><p class="descriptionClient">Fournitures de bureau</p>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+    </section>
+  <!--Fin Partie3-->
+
+  <!--Partie4-->
+    <footer id="sectionContact">
+
+      <div id="containerMap">
+
+        <div class="googleMap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807224!2d2.347636915674888!3d48.87305177928887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1525267900636" height="630" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="mapOpacity"></div>
+
+        <div class="formulaire">
+
+          <h5>Contact info</h5>
+
+          <div class="adresse light">
+            <p class="bold">Web Agency SAS<p>
+            <p class="ligneAdresse">25 rue d'Hauteville 75010 Paris</p>
+            <p class="ligneAdresse"> Tél : 01 02 03 04 05</p>
+          </div>
+
+          <form>
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="text" name="email" placeholder="Email"><br>
+            <input type="text" name="subject" placeholder="Subject"><br>
+            <textarea name="message" placeholder="Message"></textarea><br>
+            <button type="submit" name="button">Send Message</button>
+          </form>
+
+        </div>
+
+      </div>
+
+    </footer>
+  <!--Fin Partie4-->
+
+  </body>
+
+</html>
