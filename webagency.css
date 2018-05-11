@@ -218,6 +218,7 @@ h1 {
   font-size: 1.2em;
 }
 
+/*ligne*/
  .divBoutonInfo:hover, button:hover {
   border-bottom: 5px solid #287e9c;
   transition-duration: 1s;
