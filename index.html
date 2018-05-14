@@ -16,32 +16,30 @@
  <body>
 
   <!--Header avec logo et navbar-->
-    <header>
+    <header id="menu">
 
-      <div class="menu">
-
-        <div class="logo">
-          <img src="img/logo.png" alt="Logo de WebAgency" />
-        </div>
-
-        <div class="divNavbar">
-          <nav class="navbar">
-            <ul>
-                <li class="regular"><a href="#header">Accueil</a></li>
-                <li class="regular"><a href="#sectionServices">Services</a></li>
-                <li class="regular"><a href="#sectionProjets">Portfolio</a></li>
-                <li class="regular"><a href="#sectionContact">Contact</a></li>
-            </ul>
-          </nav>
-       </div>
-
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo de WebAgency" />
       </div>
+
+      <div class="divNavbar">
+        <nav class="navbar">
+          <ul>
+              <li class="regular"><a href="#header">Accueil</a></li>
+              <li class="regular"><a href="#sectionServices">Services</a></li>
+              <li class="regular"><a href="#sectionProjets">Portfolio</a></li>
+              <li class="regular"><a href="#sectionContact">Contact</a></li>
+          </ul>
+        </nav>
+     </div>
 
     </header>
 
     <!--Partie1-->
     <!--En-tête image et titre-->
     <section id="sectionSlider">
+
+      <div ><img class="imageBanniere" src="img/sliderun.jpg" alt="bannière colorée"></div>
 
       <div class="timeline">
         <div class="timelineBleu"></div>
@@ -135,86 +133,70 @@
      </div>
 
       <div id="conteneurPortfolio">
+        
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/pru.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">Eye of the Tiger</h3><p class="descriptionClient">Le meilleur opticien de Nice</p>
+          </figcaption>
+        </figure>
 
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/pru.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">Eye of the Tiger</h3><p class="descriptionClient">Le meilleur opticien de Nice</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/prd.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">Le Lapin Rose</h3><p class="descriptionClient">Costumier depuis 1995</p>
+          </figcaption>
+        </figure>
 
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/prd.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">Le Lapin Rose</h3><p class="descriptionClient">Costumier depuis 1995</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/prt.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">Pompadour</h3><p class="descriptionClient">Le coiffeur préféré de Vin Diesel</p>
+          </figcaption>
+        </figure>
 
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/prt.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">Pompadour</h3><p class="descriptionClient">Le coiffeur préféré de Vin Diesel</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/prq.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">Jean Dupont</h3><p class="descriptionClient">Consultant indépendant</p>
+          </figcaption>
+        </figure>
 
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/prq.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">Jean Dupont</h3><p class="descriptionClient">Consultant indépendant</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/prc.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">Salando</h3><p class="descriptionClient">1er site e-commerce de France</p>
+          </figcaption>
+        </figure>
 
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/prc.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">Salando</h3><p class="descriptionClient">1er site e-commerce de France</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/prsix.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">firstminute.com</h3><p class="descriptionClient">Agence de voyage pour gens pressés</p>
+          </figcaption>
+        </figure>
 
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/prsix.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">firstminute.com</h3><p class="descriptionClient">Agence de voyage pour gens pressés</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/prsept.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">Space Z</h3><p class="descriptionClient">Lanceur de Renault dans l'espace</p>
+          </figcaption>
+        </figure>
 
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/prsept.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">Space Z</h3><p class="descriptionClient">Lanceur de Renault dans l'espace</p>
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="flexPhoto">
-          <figure class="figurePortfolio">
-            <img class="pic" src="img/prh.jpg" alt="">
-            <figcaption class="captionPortfolio">
-              <i class="fas fa-eye fa-lg"></i>
-              <h3 class="client">Bottom Office</h3><p class="descriptionClient">Fournitures de bureau</p>
-            </figcaption>
-          </figure>
-        </div>
+        <figure class="figurePortfolio">
+          <img class="pic" src="img/prh.jpg" alt="">
+          <figcaption class="captionPortfolio">
+            <i class="fas fa-eye fa-lg"></i>
+            <h3 class="client">Bottom Office</h3><p class="descriptionClient">Fournitures de bureau</p>
+          </figcaption>
+        </figure>
 
       </div>
 
