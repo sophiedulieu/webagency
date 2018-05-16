@@ -499,9 +499,82 @@ img {
 /*Taille d'écran du portfolio pour les écrans max 1295px*/
   @media all and (max-width: 1295px) {
     #conteneurPortfolio {
-      max-width: 800px;
+      margin:auto;
+      max-width: 1000px;
+      justify-content: space-around;
+    }
+
+    .pic {
+      height: 150px;
+      width: 240px;
+    }
+
+    .figurePortfolio {
+      height: 150px;
+      max-width: 250px;
+    }
+
+    .captionPortfolio {
+      height: 40%;
+    }
+
+    .client {
+      font-size: 1.2em;
+    }
+
+    .descriptionClient {
+      font-size: 1em;
+    }
   }
-}
+
+  @media all and (max-width: 991px) {
+    #conteneurPortfolio {
+      margin:auto;
+      max-width: 800px;
+      justify-content: center;
+    }
+
+    .pic {
+      height: 150px;
+      width: 180px;
+    }
+
+    .figurePortfolio {
+      height: 150px;
+      max-width: 180px;
+    }
+
+    .client {
+      font-size: 1em;
+    }
+
+    .descriptionClient {
+      font-size: 0.1em;
+    }
+
+    .captionPortfolio {
+      height: 40%;
+    }
+  }
+
+    @media all and (max-width:768px) {
+      #conteneurPortfolio {
+        max-width: 600px;
+      }
+      .pic {
+        height: 150px;
+        width: 250px;
+      }
+
+      .figurePortfolio {
+        height: 150px;
+        max-width: 2500px;
+      }
+
+      .captionPortfolio {
+        height: 35%;
+      }
+    }
 
 /*************************************************************************/
 
