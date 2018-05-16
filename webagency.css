@@ -215,7 +215,7 @@ h1 {
 }
 
 .divBoutonInfo {
-  margin-top: 3%;
+  margin-top: 5%;
   width: 140px;
   height: 45px;
   text-align: center;
@@ -401,7 +401,6 @@ img {
   border-radius: 0px 7px 7px 0px;
 }
 
-
 /*Conteneur photos*/
 /*Dimensions photos*/
 .pic {
@@ -412,8 +411,8 @@ img {
 
 /*Définition du conteneur*/
 #conteneurPortfolio {
-  max-width: 1400px;
   margin: auto;
+  max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -497,9 +496,64 @@ img {
   z-index: 1;
 }
 
+/*Taille d'écran du portfolio pour les écrans max 1295px*/
+  @media all and (max-width: 1295px) {
+    #conteneurPortfolio {
+      max-width: 800px;
+  }
+}
+
 /*************************************************************************/
 
 /*Partie4 Footer*/
+
+/*Intérieur du formulaire*/
+form {
+margin : 15px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.adresse {
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+h5, .adresse, .sendmessage {
+  padding-left: 20px;
+}
+
+.ligneAdresse {
+  margin-top: -15px;
+}
+
+textarea {
+  height: 173px;
+}
+
+input, textarea {
+  margin-top: 10px;
+  font-family: 'RobotoRegular';
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #EBE9ED;
+  width: 320px;
+}
+
+button {
+  border: none;
+  font-size: 1em;
+  color: white;
+  padding: 10px 10px 6px 10px;
+  margin-top: 10px;
+  background: #3491b2;
+  border-bottom: 5px solid #3491b2;
+}
+
+@media all and (min-width: 991px) {
 
 /*Hauteur de la section*/
 #sectionContact {
@@ -545,51 +599,6 @@ iframe {
   z-index: 3;
   margin-top: 55px;
 }
-
-/*Intérieur du formulaire*/
-form {
-margin : 15px;
-}
-
-h5 {
-  font-size: 20px;
-  margin-top: 20px;
-}
-
-.adresse {
-  margin-top: -20px;
-  margin-bottom: -10px;
-}
-
-h5, .adresse, .sendmessage {
-  margin-left: 20px;
-}
-
-.ligneAdresse {
-  margin-top: -15px;
-}
-
-textarea {
-  height: 173px;
-}
-
-input, textarea {
-  margin-top: 10px;
-  font-family: 'RobotoRegular';
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #EBE9ED;
-  width: 320px;
-}
-
-button {
-  border: none;
-  font-size: 1em;
-  color: white;
-  padding: 10px 10px 6px 10px;
-  margin-top: 10px;
-  background: #3491b2;
-  border-bottom: 5px solid #3491b2;
 }
 
 
@@ -662,9 +671,14 @@ button {
     padding-top: 20px;
   }
 
+<<<<<<< HEAD
   /*L'effet d'animation sur le portfolio est annulé*/
     .captionPortfolio {
       opacity: 1;
+=======
+  .captionPortfolio {
+    opacity: 1;
+>>>>>>> gh-pages
   }
 
   /*Position du h5*/
@@ -672,20 +686,38 @@ button {
     padding-top: 20px;
   }
 
-  /*Position du container du footer*/
-  #containerMap {
-    position: absolute;
-    margin: auto;
+  h5, .adresse, .sendmessage {
+    text-align: center;
   }
 
-  /*position du formulaire*/
-  .formulaire {
-    position: relative;
-    margin: auto;
-    width: 400px;
-    text-align: center;
-    margin-top: 5%;
+  .mapOpacity {
+    width: 100%;
+    height: 630px;
+    background-color: #287e9c;
+    position: absolute;
+    margin-top: -635px;
+    opacity: 0.3;
+    z-index: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+
+  /*position de la map et du formulaire*/
+
+  #containerMap, .googlemap, iframe {
+    width: 100%;
+  }
+
+  .formulaire {
+    margin: auto;
+    width: 360px;
+    height: 520px;
+    background-color: rgba(255, 255, 255, 0.8);
+    }
+
+  button {
+    margin-left: 30%;
+    }
 
 }
 
@@ -716,6 +748,10 @@ button {
   /*Suppression de la timeline en bas de la photo et de la navigation*/
   .timeline, .navigation, .imageBanniere {
     display: none;
+  }
+
+  h2 {
+    margin-top: 100px;
   }
 
   /*Footer*/
