@@ -501,6 +501,54 @@ img {
 
 /*Partie4 Footer*/
 
+/*Intérieur du formulaire*/
+form {
+margin : 15px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.adresse {
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+h5, .adresse, .sendmessage {
+  text-align: center;
+}
+
+.ligneAdresse {
+  margin-top: -15px;
+}
+
+textarea {
+  height: 173px;
+}
+
+input, textarea {
+  margin-top: 10px;
+  font-family: 'RobotoRegular';
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #EBE9ED;
+  width: 320px;
+}
+
+button {
+  border: none;
+  font-size: 1em;
+  color: white;
+  padding: 10px 10px 6px 10px;
+  margin-top: 10px;
+  background: #3491b2;
+  border-bottom: 5px solid #3491b2;
+}
+
+@media all and (min-width: 991px) {
+
 /*Hauteur de la section*/
 #sectionContact {
   margin: 0;
@@ -591,6 +639,7 @@ button {
   background: #3491b2;
   border-bottom: 5px solid #3491b2;
 }
+}
 
 
 /*************************************************************************/
@@ -667,20 +716,26 @@ button {
     padding-top: 20px;
   }
 
-  /*Position du container du footer*/
+  /*position de la map et du formulaire*/
+
   #containerMap {
-    position: absolute;
-    margin: auto;
+    width: 100%;
   }
 
-  /*position du formulaire*/
-  .formulaire {
-    position: relative;
-    margin: auto;
-    width: 400px;
-    text-align: center;
-    margin-top: 5%;
+  .googlemap, iframe {
+    width: 100%;
   }
+
+  .formulaire {
+    margin: auto;
+    width: 360px;
+    height: 520px;
+    background-color: rgba(255, 255, 255, 0.8);
+    }
+
+  button {
+    margin-left: 30%;
+    }
 
 }
 
