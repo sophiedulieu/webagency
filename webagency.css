@@ -662,6 +662,11 @@ button {
     padding-top: 20px;
   }
 
+  /*L'effet d'animation sur le portfolio est annulé*/
+    .captionPortfolio {
+      opacity: 1;
+  }
+
   /*Position du h5*/
   h5 {
     padding-top: 20px;
