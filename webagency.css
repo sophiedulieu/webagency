@@ -682,6 +682,7 @@ iframe {
 
   h5, .adresse, .sendmessage {
     text-align: center;
+    padding-left: 0;
   }
 
   .mapOpacity {
